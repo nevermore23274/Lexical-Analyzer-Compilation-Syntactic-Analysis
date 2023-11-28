@@ -1,0 +1,6 @@
+-- Introducing semantic and lexical errors
+
+function test5 returns integer;
+begin
+    8 and 2 9 * 3@;       -- Lexical error: '@' is an invalid character (assuming it's not recognized in your language definition)
+end;

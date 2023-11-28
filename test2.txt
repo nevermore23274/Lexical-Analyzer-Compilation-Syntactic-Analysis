@@ -1,0 +1,7 @@
+-- Function with an Integer Variable and two syntax errors with a lexical error
+
+function test2 returns integer;
+    b: integer is 9 * 2 + 8;
+begin
+    c: b + 2 * 8 $;    
+end;
