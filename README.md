@@ -3,11 +3,11 @@
 # General Usage
 - From the root directory you'll run:
 ```
-docker build -t project1:latest -f docker/Dockerfile .
+docker build -t syntactic-analysis:latest -f docker/Dockerfile .
 ```
 - Then you'll run:
 ```
-docker run --name project1 -v <location_to_root_folder>:/project1 -it project1
+docker run --name syntactic-analysis -v <location_to_root_folder>:/syntactic-analysis -it syntactic-analysis
 ```
 - Once inside container and ready to test:
 ```
